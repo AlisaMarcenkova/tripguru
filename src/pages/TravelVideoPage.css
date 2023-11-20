@@ -1,0 +1,44 @@
+.TravelVideoPage {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .video-item {
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .video-item.selected {
+    border: 2px solid #007bff;
+  }
+  
+  .video-title {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  
+  .video-player {
+    width: 650px;
+    height: 320px;
+    display:flex;
+    margin-bottom: 200px;
+    margin-top: 1px;
+  }
+  
+  .column{
+    flex: 1;
+    border-radius: 5px;
+    margin: 1px;
+    position: relative;
+    margin-bottom: 1px;
+    margin-right: 10px;
+  }

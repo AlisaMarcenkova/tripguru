@@ -1,0 +1,226 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero h3 {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  /* Style for the eael-tabs-nav container */
+  .eael-tabs-nav {
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .eael-tab-inline-icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .eael-tab-item-trigger {
+    margin: 1px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: flex;
+    align-items: center; /* Add this line to vertically align icon and text */
+  }
+  
+  .eael-tab-item-trigger i {
+    font-size: 20px;
+    margin-right: 5px; /* Add margin-right for space between icon and text */
+  }
+  
+  .eael-tab-title {
+    font-size: 14px;
+  }
+  
+  .eael-tab-item-trigger[aria-selected="true"] {
+    background-color: #8EC76DFF;
+    border-color: #8EC76DFF;
+  }
+  .top-destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .top-destinations h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .top-destinations h3 {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .travel-tips {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/traveltips.jpg");
+  }
+  
+  .travel-tips h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .travel-tips h3 {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 10px
+  }
+  .why-chose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:#585858;
+  }
+  
+  .why-chose h1 {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .why-chose h3{
+    margin-top: 10px;
+  }
+  .todays-top-places {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  }
+  
+  .todays-top-places h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .todays-top-places h3 {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 10px
+  }
+  .reasons-to-book {
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:#585858;
+    background-color: #06BEE1;
+  }
+  
+  .reasons-to-book h1 {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .container {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    width: 100%;
+  }
+  
+  .column{
+    flex: 1;
+    border-radius: 5px;
+    margin: 1px;
+    position: relative;
+    margin-bottom: 1px;
+  }
+  .paragraph{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .paragraph-text-color{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .widget-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 100%;
+  }

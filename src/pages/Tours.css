@@ -1,0 +1,46 @@
+.tours {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/tourrr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .tours h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background: #111111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .tours h3 {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+ .widget{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+ }
+ .column{
+  flex: 1;
+  padding: 80px;
+  border-radius: 5px;
+  margin: 1px;
+  margin-bottom: 1px;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}

@@ -1,0 +1,40 @@
+/* Blog.css */
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+  }
+  
+  .main-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+  }
+  
+ .blog-title h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+  }
+  
+ .blog-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+ .lists li {
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styling can be added based on your design requirements */
+  
